@@ -11,12 +11,34 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <form action="" class="weatherForm">
-      <input type="text" placeholder="Enter Your City" />
-      <button type="submit">Get Weather</button>
-    </form>
-    <div>
-      
+    <div action="" class="weatherForm">
+      <div class="search">
+        <input type="text" placeholder="Enter Your City" spellcheck="false" />
+        <button type="submit">
+          <img src="./Assets/images/search.png" alt="" />
+        </button>
+      </div>
+      <div class="weather">
+        <img src="./Assets/images/rain.png" alt="" class="weather-icon" />
+        <h1 class="temp">25°C</h1>
+        <h2 class="city">Coimbatore</h2>
+        <div class="details">
+          <div class="col">
+            <img src="./Assets/images/humidity.png" alt="" />
+            <div>
+              <p class="humd">50%</p>
+              <p>Humidity</p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="./Assets/images/wind.png" alt="" />
+            <div>
+              <p class="wind">15km/h</p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- custom script -->
