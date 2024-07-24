@@ -115,3 +115,10 @@ img {
   margin-top: 10px;
   display: none;
 }
+/* media query */
+@media only screen and (max-width: 600px) {
+  .weatherForm {
+    width: 360px;
+    height: 700px;
+  }
+}
