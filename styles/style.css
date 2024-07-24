@@ -118,7 +118,20 @@ img {
 /* media query */
 @media only screen and (max-width: 600px) {
   .weatherForm {
-    width: 360px;
-    /* height: 700px; */
+    width: 100vw;
+    /* height: 100vh; */
+  }
+}
+@media only screen and (max-width: 600px) {
+  .search {
+    display: block;
+    /* width: 100; */
+  }
+}
+@media only screen and (max-width: 600px) {
+  .details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
 }
