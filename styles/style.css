@@ -119,6 +119,6 @@ img {
 @media only screen and (max-width: 600px) {
   .weatherForm {
     width: 360px;
-    height: 700px;
+    /* height: 700px; */
   }
 }
